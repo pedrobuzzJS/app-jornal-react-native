@@ -30,7 +30,7 @@ export default function List(): ReactElement {
 
   return (
       <View style={styles.container}>
-          <Text style={[styles.title, { marginVertical: 10 }]}>{}</Text>
+          <Text style={[styles.title]}>{}</Text>
           {
           noticias && (
               <FlatList 
@@ -55,7 +55,7 @@ export default function List(): ReactElement {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingVertical: 10,
+    // paddingVertical: 1,
     paddingHorizontal: 14,
     backgroundColor: '#e0e0e0'
   },
