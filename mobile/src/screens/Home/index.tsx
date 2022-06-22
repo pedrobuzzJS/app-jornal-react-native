@@ -85,10 +85,10 @@ export default function Home(): ReactElement {
                     onChangeText={setAutor}    
                 />
                 
-                <Button onPress={handleSave} title="Save" />
+                <Button onPress={handleSave} title="Publicar" />
                 
             </View>
-            <Text style={[styles.title, { marginVertical: 10 }]}>Noticias Cadastrados</Text>
+            {/* <Text style={[styles.title, { marginVertical: 10 }]}>Noticias Cadastrados</Text> */}
 
             {
             noticias && (
